@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions version="1.0">
+	<group name="net_30">
+		<string name="module_description"><![CDATA[Allows designated customers to place orders without making immediate payment. Typical use case is for customers with Net-30 accounts.]]></string>
+		<string name="module_title"><![CDATA[Net-30]]></string>
+		<string name="enabled_groups"><![CDATA[Allowed Customer Groups]]></string>
+		<string name="groups_add"><![CDATA[Add Group]]></string>
+		<string name="title_groups_enabled"><![CDATA[Enabled Customer Groups]]></string>
+		<string name="title_groups_add"><![CDATA[Add Customer Group]]></string>
+		<string name="button_confirm"><![CDATA[Place Order]]></string>
+		<string name="customer_group_accepted"><![CDATA[Your order has been placed and an invoice will be sent to you for payment.]]></string>
+		<string name="customer_group_declined"><![CDATA[Your account is not set up for Net-30 billing; please select a payment method and try again.]]></string>
+		<string name="gateway_description_default"><![CDATA[Bill my account]]></string>
+		<string name="gateway_description_setting_addendum"><![CDATA[Leave blank to use the default description in the module language file.]]></string>
+	</group>
+</definitions>

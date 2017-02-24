@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<installer version="1.0">
+  <info>
+	<uid>checkout-net-30@linemansequipment.com</uid>
+	<type>plugins</type>
+	<mobile_optimized>true</mobile_optimized>
+	<name><![CDATA[Net-30]]></name>
+	<description><![CDATA[Allow customers on net-30 terms to order without paying immediately]]></description>
+	<version>1.0.0</version>
+	<minVersion>6.*.*</minVersion>
+	<maxVersion>6.*.*</maxVersion>
+	<creator><![CDATA[Brian Sandall]]></creator>
+	<homepage><![CDATA[https://linemansequipment.com]]></homepage>
+  </info>
+  <hooks>
+	<hook trigger="class.cubecart.construct.callback.gateway" enabled="1"><![CDATA[Callback Handler]]></hook>
+	<hook trigger="class.cubecart.construct.cancel" enabled="1"><![CDATA[Cancel Process Handler]]></hook>
+	<hook trigger="class.cubecart.display_basket.alternate" enabled="1"><![CDATA[Check Payment Methods]]></hook>
+	<hook trigger="class.cubecart.display_gateways" enabled="1"><![CDATA[Gateways for Net-30]]></hook>
+  </hooks>
+</installer>
